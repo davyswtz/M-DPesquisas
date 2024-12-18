@@ -1,61 +1,62 @@
-/* Estilo geral */
 body {
-    background-color: #f4f8fb; /* Fundo claro */
-    font-family: 'Arial', sans-serif;
+    background-color: #f4f8fb;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
 }
 
-/* Estilo do cartão principal */
 .card {
     border-radius: 12px;
-    background-color: #ffffff; /* Fundo branco */
+    background-color: #ffffff; 
     border: none;
+    width: 80%; 
+    max-width: 900px; 
+    padding: 40px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1); 
+    margin: auto; 
 }
 
 .card-title {
-    color: #003b59; /* Azul escuro */
+    color: #003b59; 
     font-weight: bold;
 }
 
 /* Botões */
 .btn-primary {
-    background-color: #0077b6; /* Azul oceano */
+    background-color: #0077b6; 
     border: none;
     border-radius: 8px;
 }
 
 .btn-primary:hover {
-    background-color: #005f8a; /* Azul mais escuro */
+    background-color: #005f8a; 
 }
 
 .btn-secondary {
-    background-color: #6c757d; /* Cinza escuro */
+    background-color: #6c757d; 
     border: none;
     border-radius: 8px;
 }
 
 .btn-secondary:hover {
-    background-color: #5a6268; /* Cinza mais intenso */
+    background-color: #5a6268;
 }
 
 /* Tabela */
 .table-hover tbody tr:hover {
-    background-color: #f0f8ff; /* Azul claro ao passar o mouse */
+    background-color: #f0f8ff;
 }
 
 .table-primary {
-    background-color: #0077b6; /* Azul oceano */
-    color: #ffffff; /* Texto branco */
+    background-color: #0077b6; 
+    color: #ffffff; 
 }
 
 .table-responsive {
     border-radius: 12px;
-    overflow: hidden; /* Evita bordas da tabela fora do cartão */
+    overflow: hidden; 
 }
 
-
-/* botões */
 button {
     padding: 1.3em 3em;
     font-size: 12px;
@@ -70,15 +71,15 @@ button {
     transition: all 0.3s ease 0s;
     cursor: pointer;
     outline: none;
-  }
-  
-  button:hover {
+}
+
+button:hover {
     background-color: #0004fa;
     box-shadow: 0px 15px 20px rgba(0, 102, 255, 0.4);
     color: #fff;
     transform: translateY(-7px);
-  }
-  
-  button:active {
+}
+
+button:active {
     transform: translateY(-1px);
-  }
+}
